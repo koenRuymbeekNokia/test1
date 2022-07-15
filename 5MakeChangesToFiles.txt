@@ -1,0 +1,45 @@
+a) adding and committing files:
+   33  git add second_file.txt
+   34  git commit -m "Add second file to project"
+   35  git log
+   36  git status
+
+Alternatief, 
+	git commit -a
+
+b) see difference between current working directory and staging three:
+   53  git diff (--color-words)
+
+c) see difference between staged directory and commited:
+   54  git diff --staged
+
+d) Delete files:
+	- optie 1:
+<manually delete file_to_delete1.txt in the folder>
+   66  git rm file_to_delete1.txt
+   67  git status
+   68  git commit -m "Delete first file"
+	
+	- optie 2: (permanently delete the file)
+   70  git rm file_to_delete2.txt
+   71  git status
+   73  git commit -m "Delete second file"
+
+e) Move and rename files
+	- optie 1: 
+<manually renamed first_file to primary_file>
+   78  git add primary_file.txt
+   79  git rm first_file.txt
+(-> it sees that files are the same/very similar and it detects that it must be a rename
+
+	-  optie 2: kunnen we ook gebruiken om file naar map <folder> te brengen
+   82  git mv second_file.txt <folder>/secondary_file.txt
+   83  git status
+
+
+
+
+
+
+
+

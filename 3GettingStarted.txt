@@ -1,0 +1,12 @@
+a) Initialise git:
+    5  cd ./Documents/
+    6  cd learningGit/
+    7  ls
+    9  git init
+   10  ls -la
+
+b) add and commit:
+   14  git add .
+   15  git commit -m "Initial commit"
+
+

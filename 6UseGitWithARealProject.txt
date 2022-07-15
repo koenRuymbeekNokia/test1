@@ -1,0 +1,10 @@
+a) Show what is changed in a commit:
+  104  git show d1e1c
+(d1e1c is begin van sha)
+
+b) compare 2 commits:
+  109  git diff d1e1c21..dcaa341
+ (<oldSHA>..<newSHA>)
+
+
+

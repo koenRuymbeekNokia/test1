@@ -1,0 +1,22 @@
+a) undo changes in working directory, unstaged changes:
+git restore <filename>
+
+b) unstage changed files in working directory:
+git restore --staged <filename>
+
+c) edit last commit (only possible with last commit):
+git add <thingsadded>
+git commit --amend -m <message>
+
+d) Revert commit in file
+git checkout <SHA> -- <file>
+git diff --staged 
+
+If we make then some other changes to <file>, we have two version of <file> one staged and one not staged.
+git add <file> 
+merging of the two version
+git commit om het te committen
+
+e) remove untracked files:
+git clean -n (tells you want would be cleaned, but do not do this)
+git clean -f (do the cleaning)

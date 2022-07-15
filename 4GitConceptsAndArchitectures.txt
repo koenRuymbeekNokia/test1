@@ -1,0 +1,3 @@
+HEAD-pointer:
+   28  cat .git/HEAD
+   29  cat .git/refs/heads/master

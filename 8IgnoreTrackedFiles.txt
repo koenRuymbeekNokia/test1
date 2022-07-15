@@ -1,0 +1,19 @@
+  202  git add .gitignore
+  203  git commit -am "Add .gitignore file"
+  204  git status
+  205  git status
+  206  git status
+  207  git add db_config.txt
+  208  git commit -m "Add database configuration file"
+  209  git status
+ignore tracked files:
+  210  git rm --cached db_config.txt
+<add db_config.txt to .gitignore>
+  211  git status
+  212  git add .gitignore
+  213  git status
+  214  git commit -m "Stop tracking changes to db_config.txt"
+  215  git status
+track empyt directories:
+add .gitkeep file (empty), then it will be tracked as it is non-empty
+git add <directory>/
